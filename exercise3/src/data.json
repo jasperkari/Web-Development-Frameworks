@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Apple Pencil (2nd Generation)",
+      "price": 31.99,
+      "rating": "⭐️⭐️⭐️",
+      "image": "5f7fumfo.bmp",
+      "ratingNumber": 2912
+    },
+    {
+      "name": "Seagate Portable 2TB External Hard Drive Portable HDD – USB 3.0 for PC, Mac, PS4, & Xbox - 1-Year Rescue Service (STGX2000400)",
+      "price": 39.00,
+      "rating": "⭐️⭐️⭐️⭐️⭐️",
+      "image": "obshz9oy.bmp",
+      "ratingNumber": 343
+    },
+    {
+      "name": "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range Wireless and Roku Voice Remote with TV Controls",
+      "price": 12.99,
+      "rating": "⭐️⭐️⭐️",
+      "image": "0hgu21z0.bmp",
+      "ratingNumber": 6543
+    },
+    {
+      "name": "Roku Express 4K+ 2021 | Streaming Media Player HD/4K/HDR with Smooth Wireless Streaming and Roku Voice Remote with TV Controls, Includes Premium HDMI Cable",
+      "price": 28.90,
+      "rating": "⭐️⭐️",
+      "image": "woruz9b3.bmp",
+      "ratingNumber": 1748
+    },
+    {
+      "name": "Logitech MK270 Wireless Keyboard and Mouse Combo - Keyboard and Mouse Included, Long Battery Life",
+      "price": 47.99,
+      "rating": "⭐️⭐️⭐️⭐️",
+      "image": "7spblgb3.bmp",
+      "ratingNumber": 1342
+    },
+    {
+      "name": "H390 Wired Headset, Stereo Headphones with Noise-Cancelling Microphone",
+      "price": 26.23,
+      "rating": "⭐️",
+      "image": "4vd57xpg.bmp",
+      "ratingNumber": 1782
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+.container {
+    flex-direction: row;
+    width: 34.55%;
+    margin-left: 12%;
+    border: 10px;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    color: rgb(0, 184, 224);
+}
+
+.text {
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: white;
+}
