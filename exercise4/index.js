@@ -7,7 +7,7 @@ const product = require('./product.json')
 
 app.use(bodyParser.json())
 
-let productIdaccumulator
+let productIdaccumulator = 2
 
 app.get('/', (req, res) => {
   res.send('Hello')
@@ -25,12 +25,13 @@ app.post('/product', (req, res) => {
     productIdaccumulator++
     product.push({
         id: productIdaccumulator,
-        name: reg.body.name,
-        manufacturer: reg.body.manufacturer,
-        category: reg.body.category,
-        description: reg.body.description,
-        price: reg.body.price
-    })    
+        name: req.body.name,
+        manufacturer: req.body.manufacturer,
+        category: req.body.category,
+        description: req.body.description,
+        price: req.body.price
+    })  
+    res.sendStatus(200);
 })
 
 app.put('/product/:id', (req, res) => {
