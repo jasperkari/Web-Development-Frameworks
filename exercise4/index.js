@@ -7,7 +7,7 @@ const product = require('./product.json')
 
 app.use(bodyParser.json())
 
-let productIdaccumulator = 2
+let productIdaccumulator = product[product.length - 1].id
 
 app.get('/', (req, res) => {
   res.send('Hello')
@@ -43,7 +43,7 @@ app.get('/user', (req, res) => {
 })
 
 app.post('/user', (req, res) => {
-  
+
 })
 
 app.get('/invoice', (req, res) => {
